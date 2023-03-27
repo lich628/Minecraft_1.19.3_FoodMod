@@ -1,3 +1,2 @@
 # Minecraft
-my first mod
-src为主体内容
+src文件夹内为主体内容
