@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X ",
+    "Y# ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "X": {
+      "item": "minecraft:seagrass"
+    },
+    "Y": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "tutorial_mod1:intestines",
+    "count":1
+  }
+}

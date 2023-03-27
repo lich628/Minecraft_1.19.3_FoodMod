@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tutorial_mod1",
+  "version": "${version}",
+  "name": "jamesli's test mod",
+  "description": "this is a test mod",
+  "authors": [
+    "jamesli"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tutorial_mod1/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.jamesli.tutorial_mod1.client.Tutorial_mod1Client"
+    ],
+    "main": [
+      "com.jamesli.tutorial_mod1.Tutorial_mod1"
+    ]
+  },
+  "mixins": [
+    "Tutorial_mod1.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
