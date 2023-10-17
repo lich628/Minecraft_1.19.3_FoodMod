@@ -1,2 +1,2 @@
 # Minecraft
-src文件夹内为主体内容
+1.19.3 简单小MOD
